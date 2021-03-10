@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Jimmy Chuong Online CV/Portfolio">
+<meta name="author" content="Jimmy K Chuong">
+<meta name="view" content="width=device-width, initial-scale=1.0" >
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
+<title>JKChuong</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	
+	<!-- Preloader -->
+
+	
+	<!-- Sticky Sidebar -->
+	<nav class="sidebar">
+		<ul class="sidebar-nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#employment">Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#other">Other</a></li>
+		</ul>
+	</nav>
+	
+	<div class="main-content">
+		<section id="home" class="cv-section">
+			<div class="cv-section-content" id="hero-page">
+				<div class="hero-text">
+					<div class="slide-up">
+					<h1 class="main-title">Jimmy K Chuong</h1>
+					</div>
+					
+					<div class="hero-bar"></div>
+					
+					<div class="slide-down"><h2 class="main-subtitle">Full Stack C# Developer</h2></div>
+					
+
+					<div class="hero-nav">
+						<nav class="hero-links">
+							<a href="https://www.linkedin.com/in/jkchuong/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://github.com/jkchuong" target="_blank"><i class="fab fa-github"></i></a>
+							<a href="https://jcsoup.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a>
+							<a href="jkchuong@gmail.co.uk"><i class="fas fa-envelope"></i></a>
+						</nav>
+					</div>
+					
+				</div>
+			</div>
+		</section >
+	
+		<!-- About -->
+		<section id="about" class="cv-section">
+			<div class="cv-section-content">
+				<h2 class="cv-section-title">About</h2>
+				<div class="cv-section-content-section">
+					<p>I am a King's College Gradaute with a master's degree in Theoretical Physics. I'm currently with Sparta Global as a trainee, specialising in C# Development and Testing.</p>
+				</div>
+			</div>
+		</section>
+	
+		<!-- Portfolio -->
+		<section id="portfolio" class="cv-section">
+			<div class="cv-section-content">
+				<h2 class="cv-section-title">Portfolio</h2>
+				
+				<!-- navigation for portfolio -->
+				<div class="portfolio-nav">
+					<button class="portfolio-button activated" id="csharpbutton" onClick="openPortfolio('csharp')">C#</button>
+					<button class="portfolio-button" id="unitybutton" onClick="openPortfolio('unity')">Unity</button>
+					<button class="portfolio-button" id="modellingbutton" onClick="openPortfolio('modelling')">3D Modelling</button>
+					<button class="portfolio-button" id="databutton" onClick="openPortfolio('data')">Data Science</button>
+				</div>
+				
+				<!-- CSharp portfolio -->
+				<div class="portfolio-items" id="csharp">
+					
+					<div class="card">
+						<a href="portfolio-template.html" class="card-img-top"><img src="Images/Chess_Game.png" alt="Image of Chess game"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Chess Application</h5>
+							<p class="card-text">A Chess Application featuring fully playable chess engine, AI, save function, and account registration with persistent data.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- Unity portfolio -->
+				<div class="portfolio-items" id="unity" style="display:none">
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/Unity_Farmer_Jill_Cover.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Farmer Jill's Steak Party</h5>
+							<p class="card-text">A simple top down arcade-style shooter. Completed in tandem with Unity's "Create with Code" course.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/Unity_Shooter_Cover_Title.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Abyss Hunter</h5>
+							<p class="card-text">An attempt at recreating classic bullet-hell style games.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- Modelling portfolio -->
+				<div class="portfolio-items" id="modelling" style="display:none">
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/C4D_Space_Train.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Space Train</h5>
+							<p class="card-text">Creating a slightly more complex animation of a train setting off from a station in space.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/C4D_Moon.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Moon</h5>
+							<p class="card-text">Animation of the moon floating on water. Created to practice creating animations with Cinema 4D.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/C4D_Ramen.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Ramen Shop</h5>
+							<p class="card-text">Playing with isometric camera on a 3d modelled Ramen Shop.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/C4D_Casette.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Casette</h5>
+							<p class="card-text">Practicing with using splines and masks in Cinema4D</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/Blender_DonutnCoffee.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">Donut and Coffee</h5>
+							<p class="card-text">Trying out Blender. Tutorial followed on youtube.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- Data Science portfolio -->
+				<div class="portfolio-items" id="data" style="display:none">
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/DS_Neighbour.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">The Battle of the Neighbourhoods</h5>
+							<p class="card-text">A capstone project to compare the density of Chinese community between London and Birmingham.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="" class="card-img-top"><img src="Images/DS_Cat.png" alt="Card image cap"></a>
+					  	<div class="card-body">
+							<h5 class="card-title">2-Layer Neural Network</h5>
+							<p class="card-text">Course followed on Coursera on how to construct a neural network that identifies whether an image contains a cat or not.</p>
+							<a href="#" class="btn">See more</a>
+						</div>
+					</div>
+					
+				</div>
+				
+
+			</div>
+		</section>
+			
+		
+		<!-- Employment -->
+		<section id="employment" class="cv-section">
+			<div class="cv-section-content">
+				<h2 class="cv-section-title">Employment</h2>
+
+				<div class="cv-section-content-section">
+					<h3>Floor Staff/Kitchen Staff</h3>
+					<h4>Shuang Shuang</h4>
+					<div>October 2019 - January 2020</div>
+					<p>Worked in both front and back of house positions. Given responsibility of preparing all items on the menu as well as providing high quality of customer service.</p>
+				</div>
+
+				<div class="cv-section-content-section">
+					<h3>Graphic Designer/Factory Worker</h3>
+					<h4>Law Design &amp; Print</h4>
+					<div>May 2017 - July 2017</div>
+					<p>Worked as a graphic designer for menu and calendars and as a factory worker in product production. Required basic knowledge of Adobe PhotoShop and Adobe InDesign.</p>
+				</div>
+			
+			</div>
+		</section>
+	
+		<!-- Education -->
+		<section id="education" class="cv-section">
+			<div class="cv-section-content">
+				<h2 class="cv-section-title">Education</h2>
+
+				<div class="cv-section-content-section">
+					<h3>King's College London</h3>
+					<h4>MSc Theoretical Physics - Distinction</h4>
+					<div>2019 - 2020</div>
+					<ul>
+						<li><i>Machine Learning - 84%</i></li>
+						<li><i>Theory of Complex Networks - 78%</i></li>
+						<li><i>Quantum Field Theory - 81%</i></li>
+					</ul>
+					<div><b>Dissertation:</b> Created a foundational understanding of Topological Insulators by combining concepts gained from solid&#8209;state physics and quantum mechanics </div>
+				</div>
+
+				<div class="cv-section-content-section">
+					<h3>University of Surrey</h3>
+					<h4>BSc (Hons) Mathematics and Physics - Upper Second Class Honours</h4>
+					<div>2016 - 2019</div>
+					<ul>
+						<li><i>Lagrangian &amp; Hamiltonian Dynamics - 70%</i></li>
+						<li><i>Advanced Algebra - 76%</i></li>
+						<li><i>Quantum Mechanics - 80%</i></li>
+					</ul>
+					<div><b>Dissertation:</b> Devised a formalism for path integrals by expanding the quantum mechanics of a single fermionic particle.</div>
+				</div>
+
+			</div>
+		</section>
+	
+		<!-- Skills -->
+		<section id="skills" class="cv-section">
+			<div class="cv-section-content">
+				<h2 class="cv-section-title">Skills</h2>
+
+				<div class="cv-section-content-section">
+					<h3>Programming Languages</h3>	
+					<ul>
+						<li><i>C#</i> - Trained in OOP, EF, WPF, ASP.NET. Self-taught scripting in Unity.</li>
+						<li><i>Python</i> - Exeperience with Data Visualisation, Machine Learning, and Neural Networks. Can also create Quantum Circuits using the Qiskit Package.</li>
+						<li><i>HTML/CSS</i> - Self-taight basic web design.</li>
+						<li><i>SQL</i> - Can perform CRUD operations and queries.</li>
+					</ul>
+				</div>
+
+				<div class="cv-section-content-section">
+					<h3>Mathematics and Analytics</h3>
+					<ul>
+						<li><i>Quantum Field Theory</i> - Confident on Feynman Diagrams and performing renormalisation of QED.</li>
+						<li><i>Machine Learning</i> - Completed an introductory course on the mathematical theory.</li>
+						<li><i>Linear Algebra</i> - Skilled in matrices. Able to fluently use Einstein's Summation Convention.</li>
+						<li><i>Algebra</i> - Comfortable with intermediate abstract algebra including group theory.</li>
+					</ul>
+				</div>
+
+				<div class="cv-section-content-section">
+					<h3>Miscellaneous</h3>
+					<ul>
+						<li><i>LaTeX</i> - Confident with producing personalised PDF documents.</li>
+						<li><i>Cinema 4D</i> - Basic self-taught skills as a hobby. Can create simple animations and 3D models.</li>
+						<li><i>Unity</i> - Self-taught Game Development as a hobby with scripting in C#. Have published one game on <a href="https://jcsoup.itch.io/">itch.io</a>.</li>
+						<li><i>Piano</i> - Achieved Grade 8. 10+ years of playing.</li>
+					</ul>
+				</div>
+
+			</div>
+		</section>
+	
+		<!-- Certifications -->
+		<section id="other" class="cv-section">
+			<div class="cv-section-content">
+				<h2 class="cv-section-title">Other Experience</h2>
+
+				<div class="cv-section-content-section">
+					<h3>Combined Cadet Force (CCF)</h3>
+					<div>
+						Achieved rank of Corporal within 4 years at the CCF. Given responsibility to teach new recruits weaposn handling. Obtained poisition of leader in 6-man teams, with authority to control and guide field exercises. Developed quick and clear communication skills to relay information between different teams and within teams.
+					</div>
+				</div>
+
+				<div class="cv-section-content-section">
+					<h3>Expedition Leader</h3>
+					<div>
+						Had leadership role for a week during a month-long expedition to Kenya and Uganda for charity work. Successfully lead a team of 13 people to renovate a local village school as well as teaching students Maths, English, and Science. Able to delegate jobs and request input from team members to decide the best course of action for managing limited finance and time whilst maximising quality of renovation. Developed interpersonal skills as well as leadership, teaching, and budgeting skills.
+					</div>
+				</div>
+
+				<div class="cv-section-content-section">
+					<h3>Astronautical Training</h3>
+					<div>
+						Completed a crash course on astronautical training at the US Space &amp; Rocket Center, Huntsville, Alabama. Developed quick learning skills, time management, and basic communication skills between astronauts and mission control.
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+			<!-- Call to action -->
+		<section id="call-to-action" class="cv-section">
+			<div class="cv-section-content">
+				<h2>Let's Connect!</h2>	
+			</div>
+		</section>
+	</div>
+</body>
+</html>
