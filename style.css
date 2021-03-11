@@ -398,7 +398,7 @@ img{
 }
 
 .footer{
-	wdith: 100vw;
+	width: 100vw;
 	background-color: #333;
 	display: flex;
 	align-items: center;
