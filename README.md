@@ -1,2 +1,3 @@
-# jkchuong.github.io
-My portfolio website
+# My Portfolio Website
+
+This website is currently still a WIP.
