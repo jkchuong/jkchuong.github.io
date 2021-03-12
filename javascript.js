@@ -2,6 +2,7 @@
 
 // Show portfolio items
 function openPortfolio(portfolioItem){
+	activatedButton(portfolioItem.concat("button"));
 	var i;
 	var x = document.getElementsByClassName("portfolio-items");
 	for (i = 0; i < x.length; i++){
@@ -10,7 +11,6 @@ function openPortfolio(portfolioItem){
 	
 	var element = document.getElementById(portfolioItem);
 	element.style.display = "flex";
-	activatedButton(portfolioItem.concat("button"));
 }
 
 // Activate portfolio button

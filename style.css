@@ -385,16 +385,16 @@ img{
 
 .pp-image-left{
 	float: left;
-	width: 25%;
+	width: 30%;
 	height: auto;
-	margin: 0% 3% 2% 0%;
+	margin: 2% 3% 2% 0%;
 }
 
 .pp-image-right{
 	float: right;
-	width: 25%;
+	width: 30%;
 	height: auto;
-	margin: 0% 0% 2% 3%;
+	margin: 2% 0% 2% 3%;
 }
 
 .footer{
