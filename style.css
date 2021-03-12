@@ -83,7 +83,7 @@ body {
 	background-position: 20% 100%;
 	position: relative;
 	background-attachment: fixed;
-	background-image: url("Images/ProfilePicture.png");
+	background-image: url("Images/Profile/ProfilePicture.png");
     -webkit-filter: brightness(1) contrast(1.1);
     filter: brightness(1) contrast(1.1);
 }
